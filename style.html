@@ -1,27 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhruv Portfolio</title>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+
+body{
+background:linear-gradient(to right,#ff9a9e,#fad0c4);
+color:#333;
+transition:0.3s;
+}
+
+/* DARK MODE */
+.dark{background:#111;color:white;}
+.dark section{background:#222;}
+
+/* CURSOR */
+.cursor{
+width:20px;height:20px;background:#ff4d6d;
+position:fixed;border-radius:50%;
+pointer-events:none;
+box-shadow:0 0 20px #ff4d6d;
+z-index:999;
+}
+
+/* HEADER */
+header{text-align:center;padding:60px 20px;}
+
+#typing{font-size:22px;margin-top:10px;color:#ff4d6d;font-weight:bold;}
+
+/* PROFILE */
+.profile{
+width:150px;height:150px;object-fit:cover;
+border-radius:50%;margin-top:20px;
+border:4px solid white;
+box-shadow:0 0 20px rgba(255,77,109,0.6);
+transition:0.3s;
+}
+.profile:hover{transform:scale(1.1);}
+
+/* GREEN DOT */
+.profile-container{position:relative;display:inline-block;}
+.online-dot{
+position:absolute;bottom:15px;right:15px;
+width:18px;height:18px;background:#00ff00;
+border-radius:50%;border:3px solid white;
+}
+
+/* BUTTON */
+.btn{
+margin-top:15px;padding:10px 20px;border:none;
+background:#ff4d6d;color:white;
+border-radius:20px;cursor:pointer;
+display:inline-block;text-decoration:none;
+}
+
+/* SECTION */
+section{
+padding:25px;margin:20px;background:white;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* PROJECT CARDS 🔥 */
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.card{
+background:white;
+padding:10px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:140px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card p{
+margin-top:8px;
+font-weight:bold;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+.contact-box{
+margin:10px 0;padding:12px;
+background:#ffe5ec;border-radius:10px;
+}
+
+/* FOOTER */
+footer{text-align:center;padding:20px;}
+</style>
 </head>
-<body> {
-    background: linear-gradient(to right, #ff9a9e, #fad0c4);
-    font-family: Arial;
-    text-align: center;
-    color: #333;
-}
 
-h1 {
-    font-size: 40px;
-    color: black;
-}
+<body>
 
-p {
-    font-size: 20px;
-}
+<div class="cursor"></div>
 
-ul {
-    list-style: none;
+<header>
+<h1>👋 Hello, I'm Dhruv Prajapati</h1>
+<h2 id="typing"></h2>
+
+<div class="profile-container">
+<img src="profile.jpg" class="profile">
+<div class="online-dot"></div>
+</div>
+
+<br>
+<button onclick="toggleMode()" class="btn">🌙 Dark Mode</button>
+
+<!-- WhatsApp Button 🔥 -->
+<br>
+<a href="https://wa.me/918320799285" target="_blank" class="btn">
+📲 Chat on WhatsApp
+</a>
+
+</header>
+
+<!-- SKILLS -->
+<section data-aos="fade-up">
+<h2>🧠 Skills</h2>
+<ul>
+<li>🐍 Python</li>
+<li>🛡️ Cyber Security</li>
+<li>🗄️ SQL</li>
+<li>🧑‍💻 PHP</li>
+<li>🌐 HTML & CSS</li>
+</ul>
+</section>
+
+<!-- PROJECTS (IMAGE CARDS 🔥) -->
+<section class="projects" data-aos="zoom-in">
+<h2 style="grid-column:1/-1;">📂 Projects</h2>
+
+<div class="card">
+<img src="project1.jpg">
+<p>📘 Contact Book</p>
+</div>
+
+<div class="card">
+<img src="project2.jpg">
+<p>🧠 Quiz Game</p>
+</div>
+
+<div class="card">
+<img src="project3.jpg">
+<p>🎲 Dice Rolling</p>
+</div>
+
+<div class="card">
+<img src="project4.jpg">
+<p>🔐 Password Manager</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section data-aos="fade-right">
+<h2>📞 Contact</h2>
+
+<div class="contact-box">📱 8320799285</div>
+
+<div class="contact-box">
+📧 <a href="mailto:dhruvpprajapati2007@gmail.com">
+Email Me</a>
+</div>
+
+<div class="contact-box">
+🐱 <a href="https://github.com/dhruvprajapati6" target="_blank">
+GitHub</a>
+</div>
+
+<div class="contact-box">
+💼 <a href="https://www.linkedin.com/in/dhruv-prajapati-616b89362/" target="_blank">
+LinkedIn</a>
+</div>
+
+</section>
+
+<footer>
+✨ Made with ❤️ by Dhruv
+</footer>
+
+<!-- JS -->
+
+<script>
+let text="🚀 Python Developer | 🛡️ Cyber Security Learner";
+let i=0;
+function type(){
+if(i<text.length){
+document.getElementById("typing").innerHTML+=text.charAt(i);
+i++;
+setTimeout(type,70);
 }
+}
+type();
+</script>
+
+<script>
+function toggleMode(){
+document.body.classList.toggle("dark");
+}
+</script>
+
+<script>
+const cursor=document.querySelector(".cursor");
+document.addEventListener("mousemove",e=>{
+cursor.style.top=e.clientY+"px";
+cursor.style.left=e.clientX+"px";
+});
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:1000});</script>
+
 </body>
 </html>
