@@ -11,7 +11,7 @@
 
 ---
 
-## 🌐 About Project <br><br>
+## 🌐 About Project
 
 💡 This is a **modern, responsive and stylish portfolio website** built using
 **HTML + CSS (No Framework)** with smooth UI, animations and interactive elements.
