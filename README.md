@@ -1,97 +1,98 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4CAF50,100:2196F3&height=200&section=header&text=Dhruv%20Profile%20Website&fontSize=40&fontColor=ffffff"/>
-</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:00C9FF,25:4CAF50,50:2196F3,75:6A5ACD,100:FF6FD8&text=Dhruv%20Portfolio&fontSize=45&fontAlignY=38&animation=fadeIn&fontColor=ffffff"/>
+
+# ✨ Modern Portfolio Website ✨
+
+### 🚀 Professional • Animated • Responsive
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-Website-2196F3?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-Styling-0D47A1?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/Design-Modern-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/HTML5-Website-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
 </p>
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=Welcome+To+My+Portfolio;Frontend+Developer;Cyber+Security+Learner;Creative+Web+Designer"/>
 
-## 🌐 About Project
-
-💡 This is a **modern, responsive and stylish portfolio website** built using
-**HTML + CSS (No Framework)** with smooth UI, animations and interactive elements.
-
-🚀 Designed to showcase skills, projects and contact details in a professional way.
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2196F3,100:0D47A1&height=80&text=✨%20Features%20✨&fontSize=25&fontColor=ffffff"/>
-</p>
+# 🌐 About Project
 
-## ✨ Features
+This is a **modern and stylish personal portfolio website** built using **HTML, CSS and JavaScript**.
 
-* 🎨 Beautiful Gradient UI Design
-* ✨ Typing Animation Effect
-* 🟢 Profile Image with Online Status Dot
-* 🌙 Dark Mode Toggle
-* 🖱️ Cursor Glow Effect
-* 🎬 Scroll Animations (AOS)
-* 📂 Project Image Cards
-* 📸 Responsive Layout
-* 📞 Contact Section with Hover Cards
-* 💬 WhatsApp Direct Chat Button
-* 🔗 Clickable Links (GitHub & LinkedIn)
-* 🎯 Clean & Professional UI
+The website showcases:
+
+✨ Skills  
+✨ Projects  
+✨ Contact Information  
+✨ Social Links  
+
+with smooth animations and professional UI effects.
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2196F3,100:0D47A1&height=80&text=📂%20Project%20Preview&fontSize=25&fontColor=ffffff"/>
-</p>
+# ✨ Features
 
-## 📸 Project Preview
+<div align="center">
 
-| 📘 Contact Book          | 🧠 Quiz Game          |
-| ------------------------ | --------------------- |
-| ![Contact](project1.jpg) | ![Quiz](project2.jpg) |
+| 🚀 Feature | 💡 Description |
+|------------|----------------|
+| 🎨 Modern UI | Clean & attractive design |
+| ✨ Typing Animation | Interactive text effects |
+| 🌙 Dark Mode | Smooth dark/light theme |
+| 🖱️ Cursor Glow | Stylish cursor animation |
+| 📂 Project Cards | Beautiful showcase section |
+| 📱 Responsive Design | Mobile friendly layout |
+| 🔗 Social Links | GitHub & LinkedIn integration |
+| 🎬 Scroll Animations | AOS animation effects |
 
-| 🎲 Dice Rolling       | 🔐 Password Manager       |
-| --------------------- | ------------------------- |
-| ![Dice](project3.jpg) | ![Password](project4.jpg) |
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2196F3,100:0D47A1&height=80&text=🛠️%20Tech%20Used&fontSize=25&fontColor=ffffff"/>
-</p>
-
-## 🛠️ Tech Used
-
-* HTML5
-* CSS3
-* JavaScript
-* AOS Animation Library
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2196F3,100:0D47A1&height=80&text=🔗%20Connect%20With%20Me&fontSize=25&fontColor=ffffff"/>
-</p>
+# 📸 Project Preview
 
-## 🔗 Connect With Me
+<div align="center">
 
-* 💼 LinkedIn: https://www.linkedin.com/in/dhruv-prajapati-616b89362/
-* 🐱 GitHub: https://github.com/dhruvprajapati6
+<table>
+<tr>
 
----
+<td align="center">
+<img src="./project1.jpg" width="350px" alt="Project 1"/>
+<br><br>
+<h3>📘 Contact Book</h3>
+<p>Modern contact management system with clean UI.</p>
+</td>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4CAF50,100:2196F3&height=80&text=👨‍💻%20Author&fontSize=25&fontColor=ffffff"/>
-</p>
+<td align="center">
+<img src="./project2.jpg" width="350px" alt="Project 2"/>
+<br><br>
+<h3>🧠 Quiz Game</h3>
+<p>Interactive quiz application with score tracking.</p>
+</td>
 
-## 👨‍💻 Author
+</tr>
 
-**Dhruv Prajapati**
-🚀 Python Developer | 🛡️ Cyber Security Learner
+<tr>
 
----
+<td align="center">
+<img src="./project3.jpg" width="350px" alt="Project 3"/>
+<br><br>
+<h3>🎲 Dice Roller</h3>
+<p>Animated dice rolling game using JavaScript.</p>
+</td>
 
-## ⭐ Support
+<td align="center">
+<img src="./project4.jpg" width="350px" alt="Project 4"/>
+<br><br>
+<h3>🔐 Password Manager</h3>
+<p>Secure password generator and manager project.</p>
+</td>
 
-If you like this project, give it a ⭐ on GitHub!
+</tr>
+</table>
+
+</div>
